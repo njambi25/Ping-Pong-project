@@ -7,3 +7,19 @@
   color: #F2EAED;
   text-align: center;
 }
+
+#middle {
+  background-color: #8a91ac;
+}
+
+.row {
+  margin: 0;
+}
+
+.btn {
+  background-color: #F2EAED;
+}
+
+#lower {
+  background-color: #8a91ac;
+}
