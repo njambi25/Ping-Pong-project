@@ -7,7 +7,12 @@ $(document).ready(function() {
     });
   });
 pingPongi = function(pp) {
- if (pp % 3 === 0){
-    return"ping"
+ if (pp % 15 === 0){
+    return"pingpong"
+
+} else if (pp % 3 === 0){
+  return"ping"
+
+
 }
-  };
+};
