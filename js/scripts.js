@@ -1,24 +1,29 @@
+var pp;
 $(document).ready(function() {
     $("form#ping-pongi").submit(function(event) {
-      event.preventDefault();
-      var pp = parseInt($("input#pp").val());
-      var result = pingPongi(pp);
-      $("#results").text(result);
+          pp = parseInt($("input#pp").val());
+          $("#results ul").text("");
+          pingpongi();
+          event.preventDefault();
     });
   });
-pingPongi = function(pp) {
- if (pp % 15 === 0){
-    return"pingpong"
 
 
-} else if (pp % 3 === 0){
-  return"ping"
+  function pingpongi(){
 
-} else if (pp % 5 === 0) {
-  return "pong";
-  
-}else{
-  return "pp";
-}
+for(var i=1;i<=pp; i++){
+ if (i % 15 === 0){
+   $("#results ul").append("<li>PingPong</li>");
 
-}
+ } else if (i % 5 === 0) {
+    $("#results ul").append("<li>Pong</li>");
+
+ } else if (i % 3 === 0){
+    $("#results ul").append("<li>Ping</li>");
+
+ }else{
+    $("#results ul").append("<li>" +i.toString() +"</li>");
+
+      }
+  }
+ };
