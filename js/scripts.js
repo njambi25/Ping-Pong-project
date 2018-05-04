@@ -7,6 +7,7 @@ $(document).ready(function() {
     });
   });
 pingPongi = function(pp) {
-  return true;
-
+ if (pp % 3 === 0){
+    return"ping"
+}
   };
