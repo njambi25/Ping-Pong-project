@@ -1,35 +1,41 @@
+body {
+  background-image: url('../img/background.jpg');
+}
+
 .jumbotron {
-  background-color: #f1ba48;
+  background-color: #16235A;
   height: 300px;
+  filter: opacity(80px);
 }
 
 .jumbotron h1 {
-  color: #D75B66;
+  color: #d2b61b;
   text-align: center;
+  font-family: 'Berkshire Swash', cursive;
+  font-size: 90px;
 }
 
 #middle {
-  background-color: #8a91ac;
-}
-
-.row {
-  margin: 0;
-}
-
-.btn {
-  background-color: #F2EAED;
+  background-color: #a4a4bf;
 }
 
 #lower {
-  background-color: #8a91ac;
+  background-color: #a4a4bf;
 }
 
-#con1 {
-  background-color: #0f183e;
+.btn {
+  color: #16235a;
 }
 
-body {
-  background-color: #0f183e;
+.btn:hover {
+  color: #d2b61b;
 }
 
-.
+.form-group {
+  font-size: 20px;
+  font-family: 'Gugi', cursive;
+  color: #16235a;
+  margin-left: 0;
+  padding-right: 0;
+  list-style-type: none;
+}
