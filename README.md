@@ -18,6 +18,25 @@ informarmation.
 *js
 *jQuery
 
+# Specifications
+This is the spec process used when creating the Ping Pong web application
+
+*It can count up to any provided number
+Input: 5
+output:[1, 2, 3, 4, 5]
+
+*It can return ping for any number divisible by 3
+Input: 6
+Output: [1, 2, Ping, 4, Pong, Ping]
+
+*It can return pong for any number divisible by 5
+Input: 10
+Output: [1, 2, Ping, 4, Pong, Ping, 7, 8, Ping, Pong]
+
+*It can return pingpong for any number divisible by 15
+Input: 15
+Output: [1, 2, Ping, 4, Pong, Ping, 7, 8, Ping, Pong, 11, Ping, 13, 14, PingPong]
+
 # Support and contact details
 Alice njambi.
 Send and email to njambialice25@gmail.com for anyu questions or suggestions
