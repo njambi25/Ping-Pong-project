@@ -14,12 +14,12 @@ informarmation.
 # Technologies Used
 *html
 *css
-*js
+*Javascript
 *jQuery
 
 # Support and contact details
 Alice njambi.
-Send and email to njambialice25@gmail.com for anyu questions or suggestions
+Send an email to njambialice25@gmail.com for anyu questions or suggestions
 ### License
 *MIT License
 
