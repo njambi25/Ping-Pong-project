@@ -1,5 +1,6 @@
 # ping-pong-project
 # Ping Pong Game Web application
+https://njambi25.github.io/Ping-Pong-project/
 #### This is a Ping Pong Game web application, 
 #### By **Alice Njambi**
 ## Description
