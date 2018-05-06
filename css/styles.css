@@ -2,12 +2,12 @@ body {
   background-image: url('../img/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .jumbotron {
   background-color: #16235A;
   height: 300px;
-  filter: opacity(80px);
 }
 
 .jumbotron h1 {
@@ -59,4 +59,45 @@ body {
 #pp {
   color: #d2b61b;
   ;
+}
+
+.container {
+  padding-left: 0px;
+}
+
+@@media screen and (min-width: 426px) {
+  body {
+    width:100%;
+  }
+  .jumbotron {
+    width: 100%;
+  }
+  #middle {
+    width: 100%;
+  }
+  #lower {
+    width: 100%
+  }
+}
+
+@media screen and (max-width: 760px) {
+  body {
+    background-color: black;
+    background-image: none;
+    width: 100%;
+  }
+  .jumbotron {
+    margin-left: 15px;
+  }
+  .jumbotron h1 {
+    font-size: 53px;
+    margin-top: 94px
+  }
+  #middle {
+    width: 100%;
+    margin-left: 15px;
+  }
+  #lower {
+    width: 100%;
+  }
 }
