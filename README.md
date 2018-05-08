@@ -21,11 +21,11 @@ informarmation.
 # Specifications
 This is the spec process used when creating the Ping Pong web application
 
-*It can count up to any provided number
+*It can count up to any provided number.
 Input: 5
-output:[1, 2, 3, 4, 5]
+output:[1, 2, ping, 4, pong]
 
-*It can return ping for any number divisible by 3
+*It can return ping for any number divisible by 3.
 Input: 6
 Output: [1, 2, Ping, 4, Pong, Ping]
 
